@@ -2,11 +2,11 @@
 Diego's Cops and Robbers - https://gtaconnected.com
 
 
-Welcome to the d-cnr Server repository! This project aims to provide a versatile multiplayer server  for various Grand Theft Auto games, including GTA III, GTA Vice City, GTA San Andreas, and GTA IV.
+Welcome to the d-cnr Server repository! This project aims to provide a versatile Cops and Robbers server for various Grand Theft Auto games, including GTA III, GTA Vice City, GTA San Andreas, and GTA IV on GTA Connected.
 
 ## Introduction
 
-GTA Connected Server is designed to offer a Cops and Robbers multiplayer experience across multiple GTA titles that are supported with GTA Connected. Whether you're a fan of the classic GTA III or the sprawling world of GTA San Andreas, this server has you covered.
+GTA Connected doesn't have many servers. I don't personally have the time or motivation to fully commit to working on a server. Hence I decided to make this open source. Hopefully, this repo can be a pathway for more creations on GTAC and more players playing on a server. Hopefully, other programmers can get ideas and contribute to this server. Once the server is at a point where it's playable, I will host the script, hire a staff team, and get the server running.
 
 ## Development
 - Community-driven development: Join a vibrant community of developers and players contributing to the server's growth and improvement.
@@ -20,6 +20,10 @@ We welcome contributions from the community to help improve the GTA Connected Se
 - Share your ideas and suggestions on our community forums or Discord server.
 
 To learn more about contributing to the project, please read our [Contribution Guidelines](CONTRIBUTING.md).
+
+## Am allowed to run the script for myself?
+Short answer; technically. I don't want to split up players with multiple CnR servers on multiple servers with the same script. So I have the right within the license to authorize a takedown if the license isn't followed. I mostly just want contributions to the script and developers getting ideas to make their own gamemode/resource.
+If an issue begins to occur, I will private the repository and only invite contributors to it.
 
 ## Community
 
