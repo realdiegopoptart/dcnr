@@ -6,7 +6,7 @@ Welcome to the d-cnr Server repository! This project aims to provide a versatile
 
 ## Introduction
 
-GTA Connected doesn't have many servers. I don't personally have the time or motivation to fully commit to working on a server. Hence I decided to make this open source. Hopefully, this repo can be a pathway for more creations on GTAC and more players playing on a server. Hopefully, other programmers can get ideas and contribute to this server. Once the server is at a point where it's playable, I will host the script, hire a staff team, and get the server running.
+GTA Connected doesn't have many servers. I don't personally have the time or motivation to fully commit to working on the server. Hence I decided to make this project open source. Hopefully, this repo can be a pathway for more creations on GTAC and more players playing on a server. Hopefully, other programmers can get ideas and contribute to this server. Once the server is at a point where it's playable, I will host the script, hire a staff team, and get the server running.
 
 ## Contributing
 
@@ -19,7 +19,7 @@ We welcome contributions from the community to help improve the GTA Connected Se
 To learn more about contributing to the project, please read our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## Am allowed to run the script for myself?
-Short answer; technically. I don't want to split up players with multiple CnR servers on multiple servers with the same script. So I have the right within the license to authorize a takedown if the license isn't followed. I mostly just want contributions to the script and developers getting ideas to make their own gamemode/resource.
+Short answer; technically. I do not fully recommend it tho. I don't want to split up players with multiple CnR servers with the same script. So I have the right within the license to authorize a takedown if the license isn't followed / for any reason. I mostly just want contributions to the script and developers getting ideas to make their own gamemode/resources.
 If an issue begins to occur, I will private the repository and only invite contributors to it.
 
 ## Community
