@@ -4,12 +4,11 @@
 
 <server>
 	<!-- General Information -->
-	<servername>Default Server</servername>
-	<game>gta:iii</game>
-	<gamemode>Free Roam</gamemode>
-	<serverbrowser>true</serverbrowser>
-	<maxplayers>32</maxplayers>
-	<password></password>
+	<servername>Diego's Cops and Robbers (IV)</servername>
+	<game>gta:iv</game>
+	<gamemode>Diego's Cops and Robbers (RP/CNR)</gamemode>
+	<serverbrowser>false</serverbrowser>
+	<maxplayers>127</maxplayers>
 	<minclientversion>1.5.0</minclientversion>
 	<duplicatenames>false</duplicatenames>
 
@@ -35,7 +34,7 @@
 	<!-- GTA IV -->
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/GameModes -->
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/Episodes -->
-	<iv_gamemode>8</iv_gamemode>
+	<iv_gamemode>-1</iv_gamemode>
 	<iv_episode>-1</iv_episode>
 
 	<!-- Modules -->
@@ -45,34 +44,35 @@
 
 	<!-- Global CVars -->
 	<!-- https://wiki.gtaconnected.com/CVars -->
-	<cvar name="nametags" value="1" />
-	<cvar name="gunshops" value="1" />
-	<cvar name="uniquestuntjumps" value="1" />
-	<cvar name="stuntjumps" value="1" />
+	<cvar name="nametags" value="0" />
+	<cvar name="gunshops" value="0" />
+	<cvar name="uniquestuntjumps" value="0" />
+	<cvar name="stuntjumps" value="0" />
 	<cvar name="stauntontoiletcamera" value="1" />
 	<cvar name="gates" value="1" />
 	<cvar name="trains" value="1" />
 	<cvar name="planes" value="1" />
-	<cvar name="maximumwantedlevel" value="6" />
-	<cvar name="defaultparkedcars" value="1" />
-	<cvar name="ambulances" value="1" />
+	<cvar name="maximumwantedlevel" value="0" />
+	<cvar name="defaultparkedcars" value="0" />
+	<cvar name="ambulances" value="0" />
 	<cvar name="traffic" value="1" />
 	<cvar name="civilians" value="1" />
-	<cvar name="defaultpickups" value="1" />
-	<cvar name="singleplayer" value="1" />
+	<cvar name="defaultpickups" value="0" />
+	<cvar name="singleplayer" value="0" />
+	<cvar name="trainers" value="0" />
 	<cvar name="bigmap" value="1" />
-	<cvar name="iv_playerwalking" value="0" />
-	<cvar name="iv_scenariopeds" value="1" />
-	<cvar name="iv_randomcops" value="1" />
+	<cvar name="iv_playerwalking" value="1" />
+	<cvar name="iv_scenariopeds" value="0" />
+	<cvar name="iv_randomcops" value="0" />
 
 	<!-- Rules -->
 	<!-- https://wiki.gtaconnected.com/ServerRules -->
-	<rule name="Owner" value="Nobody" />
-	<rule name="Website" value="https://gtaconnected.com" />
+	<rule name="Owner" value="realdiegopoptart" />
+	<rule name="Website" value="https://cnr.diegocasillas.org" />
 
 	<!-- Resources -->
 	<!-- https://wiki.gtaconnected.com/Resources -->
 	<resources>
-		<resource src="freeroam" />
+		<resource src="dcnr" />
 	</resources>
 </server>
