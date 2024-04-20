@@ -40,6 +40,9 @@
 	<!-- Modules -->
 	<!-- https://wiki.gtaconnected.com/Modules -->
 	<modules>
+		<module src="modules/dll/mod_hashing_x64"/>
+		<module src="modules/dll/mod_mariadb_x64"/>
+		<module src="modules/dll/mod_geoip"/>
 	</modules>
 
 	<!-- Global CVars -->
