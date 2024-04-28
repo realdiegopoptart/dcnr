@@ -1,10 +1,26 @@
 <meta>
 	<info title="Diego's Cops and Robbers" author="realdiegopoptart" version="1.0" description="A Cops and Robbers server for GTA Connected" />
 
-	<!-- <script src="server.js" type="server" language="javascript" /> -->
-    <script src="server.js" type="server" language="javascript" />
+
+	<!-- Server -->
+    <script src="server/server.js" type="server" language="javascript" />
+	<script src="server/chat.js" type="server" language="javascript" />
+	<script src="server/database.js" type="server" language="javascript" />
+
+	<!-- Server: accounts -->
+	<script src="server/account/account.js" type="server" language="javascript" />
+	<script src="server/account/commands.js" type="server" language="javascript" />
 
 
+	<!-- Client -->
+	<script src="client/client.js" type="client" language="javascript" />
 	<script src="client/nametag.js" type="client" language="javascript" />
 	<script src="client/passenger.js" type="client" language="javascript" />
+
+	<!-- Shared -->
+	<script src="shared/game.js" type="server" language="javascript" />
+	<script src="shared/game.js" type="client" language="javascript" />
+
+	<script src="shared/color.js" type="server" language="javascript" />
+	<script src="shared/color.js" type="client" language="javascript" />
 </meta>

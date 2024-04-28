@@ -5,7 +5,7 @@
 <server>
 	<!-- General Information -->
 	<servername>Diego's Cops and Robbers (IV)</servername>
-	<game>gta:iv</game>
+	<game>gta:vc</game>
 	<gamemode>Diego's Cops and Robbers (RP/CNR)</gamemode>
 	<serverbrowser>false</serverbrowser>
 	<maxplayers>127</maxplayers>
@@ -20,6 +20,7 @@
 	<syncinterval>30</syncinterval>
 	<syncmethod>interval</syncmethod>
 	<synclocalentities>true</synclocalentities>
+	
 
 	<!-- Element Streaming -->
 	<streamindistance>200</streamindistance>
@@ -36,13 +37,14 @@
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/Episodes -->
 	<iv_gamemode>-1</iv_gamemode>
 	<iv_episode>-1</iv_episode>
+	<iv_nativemultiplayer>true</iv_nativemultiplayer>
 
 	<!-- Modules -->
 	<!-- https://wiki.gtaconnected.com/Modules -->
 	<modules>
-		<module src="modules/dll/mod_hashing_x64"/>
-		<module src="modules/dll/mod_mariadb_x64"/>
 		<module src="modules/dll/mod_geoip"/>
+		<module src="modules/dll/mod_hashing_x64"/>
+		<module src="modules/dll/mod_mysql_x64"/>
 	</modules>
 
 	<!-- Global CVars -->
@@ -71,7 +73,7 @@
 	<!-- Rules -->
 	<!-- https://wiki.gtaconnected.com/ServerRules -->
 	<rule name="Owner" value="realdiegopoptart" />
-	<rule name="Website" value="https://cnr.diegocasillas.org" />
+	<!-- <rule name="Website" value="" /> -->
 
 	<!-- Resources -->
 	<!-- https://wiki.gtaconnected.com/Resources -->
